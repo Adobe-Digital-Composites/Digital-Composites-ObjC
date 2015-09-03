@@ -1,0 +1,44 @@
+{
+  "manifest-format-version" : 6,
+  "id" : "04332D07-49AE-4471-87B0-836F5CB1EA7E",
+  "children" : [
+    {
+      "path" : "pages",
+      "id" : "EF5004D5-7453-4B38-82C0-85E1D4D760C4",
+      "type" : "nt1",
+      "name" : "nn1",
+      "children" : [
+        {
+          "path" : "page 1",
+          "id" : "8603DF5B-34AD-4DEA-8CD6-E14826D3D361",
+          "components" : [
+            {
+              "length" : 24926,
+              "id" : "FC722C5B-C685-481F-89CC-5E36B59B1299",
+              "rel" : "rendition",
+              "path" : "rendition.png",
+              "type" : "image\/png",
+              "state" : "unmodified",
+              "name" : "cn1",
+              "etag" : "ce1",
+              "version" : "cv1"
+            }
+          ],
+          "type" : "nt2",
+          "name" : "nn2"
+        }
+      ]
+    }
+  ],
+  "local" : {
+    "copyOnWrite#storageIds" : {
+      "FC722C5B-C685-481F-89CC-5E36B59B1299" : "DF04849B-21E5-4230-938A-6E04D52B46BE.png"
+    },
+    "manifestSaveId" : "6B020AA2-DE19-4BBE-863A-EBCA3E2198FE",
+    "compositeHref" : "h",
+    "manifestEtag" : "e"
+  },
+  "type" : "t",
+  "state" : "unmodified",
+  "name" : "n"
+}

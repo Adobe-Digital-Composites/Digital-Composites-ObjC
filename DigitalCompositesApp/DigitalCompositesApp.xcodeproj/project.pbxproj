@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A9C2DA1B69F0DD001F99EE /* DigitalComposites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A9C2D91B69F0DD001F99EE /* DigitalComposites.framework */; };
+		B5ED10021B69AD450097F224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED10011B69AD450097F224 /* main.m */; };
+		B5ED10051B69AD450097F224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED10041B69AD450097F224 /* AppDelegate.m */; };
+		B5ED100B1B69AD450097F224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ED10091B69AD450097F224 /* Main.storyboard */; };
+		B5ED100D1B69AD450097F224 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ED100C1B69AD450097F224 /* Images.xcassets */; };
+		B5ED10101B69AD450097F224 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5ED100E1B69AD450097F224 /* LaunchScreen.xib */; };
+		B5ED101C1B69AD450097F224 /* DigitalCompositesAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED101B1B69AD450097F224 /* DigitalCompositesAppTests.m */; };
+		B5ED102D1B69ADBB0097F224 /* CompositeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED10261B69ADBB0097F224 /* CompositeDetailsViewController.m */; };
+		B5ED102E1B69ADBB0097F224 /* CompositeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED10281B69ADBB0097F224 /* CompositeListViewController.m */; };
+		B5ED102F1B69ADBB0097F224 /* DropboxAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED102A1B69ADBB0097F224 /* DropboxAccount.m */; };
+		B5ED10301B69ADBB0097F224 /* DropboxAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED102C1B69ADBB0097F224 /* DropboxAuthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5ED10161B69AD450097F224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5ED0FF41B69AD440097F224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5ED0FFB1B69AD450097F224;
+			remoteInfo = DigitalCompositesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5B93EE31B6A95E5004E5152 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5A9C2D91B69F0DD001F99EE /* DigitalComposites.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DigitalComposites.framework; path = "../../../Library/Developer/Xcode/DerivedData/DigitalComposites-dxoktjstptehdcfcfimjknvntkdg/Build/Products/Debug-iphoneos/DigitalComposites.framework"; sourceTree = "<group>"; };
+		B5ED0FFC1B69AD450097F224 /* DigitalCompositesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCompositesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ED10001B69AD450097F224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ED10011B69AD450097F224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5ED10031B69AD450097F224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5ED10041B69AD450097F224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5ED100A1B69AD450097F224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5ED100C1B69AD450097F224 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5ED100F1B69AD450097F224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5ED10151B69AD450097F224 /* DigitalCompositesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalCompositesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5ED101A1B69AD450097F224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ED101B1B69AD450097F224 /* DigitalCompositesAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalCompositesAppTests.m; sourceTree = "<group>"; };
+		B5ED10251B69ADBB0097F224 /* CompositeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeDetailsViewController.h; sourceTree = "<group>"; };
+		B5ED10261B69ADBB0097F224 /* CompositeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeDetailsViewController.m; sourceTree = "<group>"; };
+		B5ED10271B69ADBB0097F224 /* CompositeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeListViewController.h; sourceTree = "<group>"; };
+		B5ED10281B69ADBB0097F224 /* CompositeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeListViewController.m; sourceTree = "<group>"; };
+		B5ED10291B69ADBB0097F224 /* DropboxAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxAccount.h; sourceTree = "<group>"; };
+		B5ED102A1B69ADBB0097F224 /* DropboxAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxAccount.m; sourceTree = "<group>"; };
+		B5ED102B1B69ADBB0097F224 /* DropboxAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxAuthViewController.h; sourceTree = "<group>"; };
+		B5ED102C1B69ADBB0097F224 /* DropboxAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxAuthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5ED0FF91B69AD450097F224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C2DA1B69F0DD001F99EE /* DigitalComposites.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED10121B69AD450097F224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5ED0FF31B69AD440097F224 = {
+			isa = PBXGroup;
+			children = (
+				B5A9C2D91B69F0DD001F99EE /* DigitalComposites.framework */,
+				B5ED0FFE1B69AD450097F224 /* DigitalCompositesApp */,
+				B5ED10181B69AD450097F224 /* DigitalCompositesAppTests */,
+				B5ED0FFD1B69AD450097F224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5ED0FFD1B69AD450097F224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED0FFC1B69AD450097F224 /* DigitalCompositesApp.app */,
+				B5ED10151B69AD450097F224 /* DigitalCompositesAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5ED0FFE1B69AD450097F224 /* DigitalCompositesApp */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED10031B69AD450097F224 /* AppDelegate.h */,
+				B5ED10041B69AD450097F224 /* AppDelegate.m */,
+				B5ED10251B69ADBB0097F224 /* CompositeDetailsViewController.h */,
+				B5ED10261B69ADBB0097F224 /* CompositeDetailsViewController.m */,
+				B5ED10271B69ADBB0097F224 /* CompositeListViewController.h */,
+				B5ED10281B69ADBB0097F224 /* CompositeListViewController.m */,
+				B5ED10291B69ADBB0097F224 /* DropboxAccount.h */,
+				B5ED102A1B69ADBB0097F224 /* DropboxAccount.m */,
+				B5ED102B1B69ADBB0097F224 /* DropboxAuthViewController.h */,
+				B5ED102C1B69ADBB0097F224 /* DropboxAuthViewController.m */,
+				B5ED100C1B69AD450097F224 /* Images.xcassets */,
+				B5ED100E1B69AD450097F224 /* LaunchScreen.xib */,
+				B5ED10091B69AD450097F224 /* Main.storyboard */,
+				B5ED0FFF1B69AD450097F224 /* Supporting Files */,
+			);
+			path = DigitalCompositesApp;
+			sourceTree = "<group>";
+		};
+		B5ED0FFF1B69AD450097F224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED10001B69AD450097F224 /* Info.plist */,
+				B5ED10011B69AD450097F224 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5ED10181B69AD450097F224 /* DigitalCompositesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED101B1B69AD450097F224 /* DigitalCompositesAppTests.m */,
+				B5ED10191B69AD450097F224 /* Supporting Files */,
+			);
+			path = DigitalCompositesAppTests;
+			sourceTree = "<group>";
+		};
+		B5ED10191B69AD450097F224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED101A1B69AD450097F224 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5ED0FFB1B69AD450097F224 /* DigitalCompositesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ED101F1B69AD450097F224 /* Build configuration list for PBXNativeTarget "DigitalCompositesApp" */;
+			buildPhases = (
+				B5ED0FF81B69AD450097F224 /* Sources */,
+				B5ED0FF91B69AD450097F224 /* Frameworks */,
+				B5ED0FFA1B69AD450097F224 /* Resources */,
+				B5B93EE31B6A95E5004E5152 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalCompositesApp;
+			productName = DigitalCompositesApp;
+			productReference = B5ED0FFC1B69AD450097F224 /* DigitalCompositesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5ED10141B69AD450097F224 /* DigitalCompositesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5ED10221B69AD450097F224 /* Build configuration list for PBXNativeTarget "DigitalCompositesAppTests" */;
+			buildPhases = (
+				B5ED10111B69AD450097F224 /* Sources */,
+				B5ED10121B69AD450097F224 /* Frameworks */,
+				B5ED10131B69AD450097F224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5ED10171B69AD450097F224 /* PBXTargetDependency */,
+			);
+			name = DigitalCompositesAppTests;
+			productName = DigitalCompositesAppTests;
+			productReference = B5ED10151B69AD450097F224 /* DigitalCompositesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5ED0FF41B69AD440097F224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					B5ED0FFB1B69AD450097F224 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5ED10141B69AD450097F224 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B5ED0FFB1B69AD450097F224;
+					};
+				};
+			};
+			buildConfigurationList = B5ED0FF71B69AD440097F224 /* Build configuration list for PBXProject "DigitalCompositesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5ED0FF31B69AD440097F224;
+			productRefGroup = B5ED0FFD1B69AD450097F224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5ED0FFB1B69AD450097F224 /* DigitalCompositesApp */,
+				B5ED10141B69AD450097F224 /* DigitalCompositesAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5ED0FFA1B69AD450097F224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED100B1B69AD450097F224 /* Main.storyboard in Resources */,
+				B5ED10101B69AD450097F224 /* LaunchScreen.xib in Resources */,
+				B5ED100D1B69AD450097F224 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED10131B69AD450097F224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5ED0FF81B69AD450097F224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED102F1B69ADBB0097F224 /* DropboxAccount.m in Sources */,
+				B5ED10051B69AD450097F224 /* AppDelegate.m in Sources */,
+				B5ED10021B69AD450097F224 /* main.m in Sources */,
+				B5ED102E1B69ADBB0097F224 /* CompositeListViewController.m in Sources */,
+				B5ED102D1B69ADBB0097F224 /* CompositeDetailsViewController.m in Sources */,
+				B5ED10301B69ADBB0097F224 /* DropboxAuthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ED10111B69AD450097F224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ED101C1B69AD450097F224 /* DigitalCompositesAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5ED10171B69AD450097F224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5ED0FFB1B69AD450097F224 /* DigitalCompositesApp */;
+			targetProxy = B5ED10161B69AD450097F224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5ED10091B69AD450097F224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5ED100A1B69AD450097F224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5ED100E1B69AD450097F224 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5ED100F1B69AD450097F224 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5ED101D1B69AD450097F224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5ED101E1B69AD450097F224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5ED10201B69AD450097F224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DigitalComposites-dxoktjstptehdcfcfimjknvntkdg/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = DigitalCompositesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5ED10211B69AD450097F224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DigitalComposites-dxoktjstptehdcfcfimjknvntkdg/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = DigitalCompositesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5ED10231B69AD450097F224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalCompositesApp.app/DigitalCompositesApp";
+			};
+			name = Debug;
+		};
+		B5ED10241B69AD450097F224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalCompositesApp.app/DigitalCompositesApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5ED0FF71B69AD440097F224 /* Build configuration list for PBXProject "DigitalCompositesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED101D1B69AD450097F224 /* Debug */,
+				B5ED101E1B69AD450097F224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5ED101F1B69AD450097F224 /* Build configuration list for PBXNativeTarget "DigitalCompositesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED10201B69AD450097F224 /* Debug */,
+				B5ED10211B69AD450097F224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5ED10221B69AD450097F224 /* Build configuration list for PBXNativeTarget "DigitalCompositesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ED10231B69AD450097F224 /* Debug */,
+				B5ED10241B69AD450097F224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5ED0FF41B69AD440097F224 /* Project object */;
+}

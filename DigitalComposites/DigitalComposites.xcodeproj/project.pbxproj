@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B5A9C1E01B69EE41001F99EE /* DigitalCompositesAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5A9C1E11B69EE41001F99EE /* Build configuration list for PBXAggregateTarget "DigitalCompositesAggregate" */;
+			buildPhases = (
+				B5A9C1E41B69EE49001F99EE /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = DigitalCompositesAggregate;
+			productName = DigitalCompositesAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B52852331B69FB120041DA7B /* pulled in Resources */ = {isa = PBXBuildFile; fileRef = B528522D1B69FB120041DA7B /* pulled */; };
+		B52852341B69FB120041DA7B /* pulledNew in Resources */ = {isa = PBXBuildFile; fileRef = B528522E1B69FB120041DA7B /* pulledNew */; };
+		B52852351B69FB120041DA7B /* pushed in Resources */ = {isa = PBXBuildFile; fileRef = B528522F1B69FB120041DA7B /* pushed */; };
+		B52852361B69FB120041DA7B /* pushedNew in Resources */ = {isa = PBXBuildFile; fileRef = B52852301B69FB120041DA7B /* pushedNew */; };
+		B52852371B69FB120041DA7B /* unbound in Resources */ = {isa = PBXBuildFile; fileRef = B52852311B69FB120041DA7B /* unbound */; };
+		B55FFA9D1B7143BB00081B7D /* Component.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FFA9C1B7143BB00081B7D /* Component.png */; };
+		B5A9C1CA1B69EE11001F99EE /* DigitalComposites.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C1C91B69EE11001F99EE /* DigitalComposites.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C1D01B69EE11001F99EE /* DigitalComposites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A9C1C41B69EE10001F99EE /* DigitalComposites.framework */; };
+		B5A9C1D71B69EE11001F99EE /* DigitalCompositesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C1D61B69EE11001F99EE /* DigitalCompositesTests.m */; };
+		B5A9C1EF1B69EEC2001F99EE /* DigitalCompositesOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C1EE1B69EEC2001F99EE /* DigitalCompositesOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C1F51B69EEC2001F99EE /* DigitalCompositesOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A9C1EA1B69EEC2001F99EE /* DigitalCompositesOSX.framework */; };
+		B5A9C1FC1B69EEC2001F99EE /* DigitalCompositesOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C1FB1B69EEC2001F99EE /* DigitalCompositesOSXTests.m */; };
+		B5A9C24D1B69EEDF001F99EE /* DCX.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2041B69EEDF001F99EE /* DCX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C24E1B69EEDF001F99EE /* DCX.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2041B69EEDF001F99EE /* DCX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C24F1B69EEDF001F99EE /* DCXBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2061B69EEDF001F99EE /* DCXBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2501B69EEDF001F99EE /* DCXBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2061B69EEDF001F99EE /* DCXBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2511B69EEDF001F99EE /* DCXBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2071B69EEDF001F99EE /* DCXBranch.m */; };
+		B5A9C2521B69EEDF001F99EE /* DCXBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2071B69EEDF001F99EE /* DCXBranch.m */; };
+		B5A9C2531B69EEDF001F99EE /* DCXBranch_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2081B69EEDF001F99EE /* DCXBranch_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2541B69EEDF001F99EE /* DCXBranch_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2081B69EEDF001F99EE /* DCXBranch_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2551B69EEDF001F99EE /* DCXComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2091B69EEDF001F99EE /* DCXComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2561B69EEDF001F99EE /* DCXComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2091B69EEDF001F99EE /* DCXComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2571B69EEDF001F99EE /* DCXComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C20A1B69EEDF001F99EE /* DCXComponent.m */; };
+		B5A9C2581B69EEDF001F99EE /* DCXComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C20A1B69EEDF001F99EE /* DCXComponent.m */; };
+		B5A9C2591B69EEDF001F99EE /* DCXComponent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20B1B69EEDF001F99EE /* DCXComponent_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C25A1B69EEDF001F99EE /* DCXComponent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20B1B69EEDF001F99EE /* DCXComponent_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C25B1B69EEDF001F99EE /* DCXComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20C1B69EEDF001F99EE /* DCXComposite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C25C1B69EEDF001F99EE /* DCXComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20C1B69EEDF001F99EE /* DCXComposite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C25D1B69EEDF001F99EE /* DCXComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C20D1B69EEDF001F99EE /* DCXComposite.m */; };
+		B5A9C25E1B69EEDF001F99EE /* DCXComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C20D1B69EEDF001F99EE /* DCXComposite.m */; };
+		B5A9C25F1B69EEDF001F99EE /* DCXComposite_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20E1B69EEDF001F99EE /* DCXComposite_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2601B69EEDF001F99EE /* DCXComposite_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20E1B69EEDF001F99EE /* DCXComposite_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2611B69EEDF001F99EE /* DCXCompositeXfer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20F1B69EEDF001F99EE /* DCXCompositeXfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2621B69EEDF001F99EE /* DCXCompositeXfer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C20F1B69EEDF001F99EE /* DCXCompositeXfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2631B69EEDF001F99EE /* DCXCompositeXfer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2101B69EEDF001F99EE /* DCXCompositeXfer.m */; };
+		B5A9C2641B69EEDF001F99EE /* DCXCompositeXfer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2101B69EEDF001F99EE /* DCXCompositeXfer.m */; };
+		B5A9C2651B69EEDF001F99EE /* DCXConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2111B69EEDF001F99EE /* DCXConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2661B69EEDF001F99EE /* DCXConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2111B69EEDF001F99EE /* DCXConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2671B69EEDF001F99EE /* DCXConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2121B69EEDF001F99EE /* DCXConstants.m */; };
+		B5A9C2681B69EEDF001F99EE /* DCXConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2121B69EEDF001F99EE /* DCXConstants.m */; };
+		B5A9C2691B69EEDF001F99EE /* DCXConstants_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2131B69EEDF001F99EE /* DCXConstants_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C26A1B69EEDF001F99EE /* DCXConstants_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2131B69EEDF001F99EE /* DCXConstants_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C26B1B69EEDF001F99EE /* DCXError.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2141B69EEDF001F99EE /* DCXError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C26C1B69EEDF001F99EE /* DCXError.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2141B69EEDF001F99EE /* DCXError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C26D1B69EEDF001F99EE /* DCXError.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2151B69EEDF001F99EE /* DCXError.m */; };
+		B5A9C26E1B69EEDF001F99EE /* DCXError.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2151B69EEDF001F99EE /* DCXError.m */; };
+		B5A9C26F1B69EEDF001F99EE /* DCXLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2161B69EEDF001F99EE /* DCXLocalStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2701B69EEDF001F99EE /* DCXLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2161B69EEDF001F99EE /* DCXLocalStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2711B69EEDF001F99EE /* DCXLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2171B69EEDF001F99EE /* DCXLocalStorage.m */; };
+		B5A9C2721B69EEDF001F99EE /* DCXLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2171B69EEDF001F99EE /* DCXLocalStorage.m */; };
+		B5A9C2731B69EEDF001F99EE /* DCXManifest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2181B69EEDF001F99EE /* DCXManifest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2741B69EEDF001F99EE /* DCXManifest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2181B69EEDF001F99EE /* DCXManifest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2751B69EEDF001F99EE /* DCXManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2191B69EEDF001F99EE /* DCXManifest.m */; };
+		B5A9C2761B69EEDF001F99EE /* DCXManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2191B69EEDF001F99EE /* DCXManifest.m */; };
+		B5A9C2771B69EEDF001F99EE /* DCXManifestFormatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21A1B69EEDF001F99EE /* DCXManifestFormatConverter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2781B69EEDF001F99EE /* DCXManifestFormatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21A1B69EEDF001F99EE /* DCXManifestFormatConverter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2791B69EEDF001F99EE /* DCXManifestFormatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C21B1B69EEDF001F99EE /* DCXManifestFormatConverter.m */; };
+		B5A9C27A1B69EEDF001F99EE /* DCXManifestFormatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C21B1B69EEDF001F99EE /* DCXManifestFormatConverter.m */; };
+		B5A9C27B1B69EEDF001F99EE /* DCXMutableBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21C1B69EEDF001F99EE /* DCXMutableBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C27C1B69EEDF001F99EE /* DCXMutableBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21C1B69EEDF001F99EE /* DCXMutableBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C27D1B69EEDF001F99EE /* DCXMutableBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C21D1B69EEDF001F99EE /* DCXMutableBranch.m */; };
+		B5A9C27E1B69EEDF001F99EE /* DCXMutableBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C21D1B69EEDF001F99EE /* DCXMutableBranch.m */; };
+		B5A9C27F1B69EEDF001F99EE /* DCXMutableBranch_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21E1B69EEDF001F99EE /* DCXMutableBranch_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2801B69EEDF001F99EE /* DCXMutableBranch_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21E1B69EEDF001F99EE /* DCXMutableBranch_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2811B69EEDF001F99EE /* DCXMutableComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21F1B69EEDF001F99EE /* DCXMutableComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2821B69EEDF001F99EE /* DCXMutableComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C21F1B69EEDF001F99EE /* DCXMutableComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2831B69EEDF001F99EE /* DCXMutableComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2201B69EEDF001F99EE /* DCXMutableComponent.m */; };
+		B5A9C2841B69EEDF001F99EE /* DCXMutableComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2201B69EEDF001F99EE /* DCXMutableComponent.m */; };
+		B5A9C2851B69EEDF001F99EE /* DCXMutableComponent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2211B69EEDF001F99EE /* DCXMutableComponent_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2861B69EEDF001F99EE /* DCXMutableComponent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2211B69EEDF001F99EE /* DCXMutableComponent_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2871B69EEDF001F99EE /* DCXMutableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2221B69EEDF001F99EE /* DCXMutableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2881B69EEDF001F99EE /* DCXMutableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2221B69EEDF001F99EE /* DCXMutableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2891B69EEDF001F99EE /* DCXMutableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2231B69EEDF001F99EE /* DCXMutableNode.m */; };
+		B5A9C28A1B69EEDF001F99EE /* DCXMutableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2231B69EEDF001F99EE /* DCXMutableNode.m */; };
+		B5A9C28B1B69EEDF001F99EE /* DCXMutableNode_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2241B69EEDF001F99EE /* DCXMutableNode_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C28C1B69EEDF001F99EE /* DCXMutableNode_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2241B69EEDF001F99EE /* DCXMutableNode_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C28D1B69EEDF001F99EE /* DCXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2251B69EEDF001F99EE /* DCXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C28E1B69EEDF001F99EE /* DCXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2251B69EEDF001F99EE /* DCXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C28F1B69EEDF001F99EE /* DCXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2261B69EEDF001F99EE /* DCXNode.m */; };
+		B5A9C2901B69EEDF001F99EE /* DCXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2261B69EEDF001F99EE /* DCXNode.m */; };
+		B5A9C2911B69EEDF001F99EE /* DCXNode_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2271B69EEDF001F99EE /* DCXNode_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2921B69EEDF001F99EE /* DCXNode_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2271B69EEDF001F99EE /* DCXNode_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2931B69EEDF001F99EE /* DCXPushJournal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2281B69EEDF001F99EE /* DCXPushJournal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2941B69EEDF001F99EE /* DCXPushJournal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2281B69EEDF001F99EE /* DCXPushJournal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2951B69EEDF001F99EE /* DCXPushJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2291B69EEDF001F99EE /* DCXPushJournal.m */; };
+		B5A9C2961B69EEDF001F99EE /* DCXPushJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2291B69EEDF001F99EE /* DCXPushJournal.m */; };
+		B5A9C2971B69EEDF001F99EE /* DCXCompositeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22B1B69EEDF001F99EE /* DCXCompositeRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2981B69EEDF001F99EE /* DCXCompositeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22B1B69EEDF001F99EE /* DCXCompositeRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2991B69EEDF001F99EE /* DCXCompositeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C22C1B69EEDF001F99EE /* DCXCompositeRequest.m */; };
+		B5A9C29A1B69EEDF001F99EE /* DCXCompositeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C22C1B69EEDF001F99EE /* DCXCompositeRequest.m */; };
+		B5A9C29B1B69EEDF001F99EE /* DCXDropboxSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22D1B69EEDF001F99EE /* DCXDropboxSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C29C1B69EEDF001F99EE /* DCXDropboxSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22D1B69EEDF001F99EE /* DCXDropboxSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C29D1B69EEDF001F99EE /* DCXDropboxSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C22E1B69EEDF001F99EE /* DCXDropboxSession.m */; };
+		B5A9C29E1B69EEDF001F99EE /* DCXDropboxSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C22E1B69EEDF001F99EE /* DCXDropboxSession.m */; };
+		B5A9C29F1B69EEDF001F99EE /* DCXHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22F1B69EEDF001F99EE /* DCXHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2A01B69EEDF001F99EE /* DCXHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C22F1B69EEDF001F99EE /* DCXHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2A11B69EEDF001F99EE /* DCXHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2301B69EEDF001F99EE /* DCXHTTPRequest.m */; };
+		B5A9C2A21B69EEDF001F99EE /* DCXHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2301B69EEDF001F99EE /* DCXHTTPRequest.m */; };
+		B5A9C2A31B69EEDF001F99EE /* DCXHTTPRequest_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2311B69EEDF001F99EE /* DCXHTTPRequest_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2A41B69EEDF001F99EE /* DCXHTTPRequest_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2311B69EEDF001F99EE /* DCXHTTPRequest_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2A51B69EEDF001F99EE /* DCXHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2321B69EEDF001F99EE /* DCXHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2A61B69EEDF001F99EE /* DCXHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2321B69EEDF001F99EE /* DCXHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2A71B69EEDF001F99EE /* DCXHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2331B69EEDF001F99EE /* DCXHTTPResponse.m */; };
+		B5A9C2A81B69EEDF001F99EE /* DCXHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2331B69EEDF001F99EE /* DCXHTTPResponse.m */; };
+		B5A9C2A91B69EEDF001F99EE /* DCXHTTPService.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2341B69EEDF001F99EE /* DCXHTTPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2AA1B69EEDF001F99EE /* DCXHTTPService.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2341B69EEDF001F99EE /* DCXHTTPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2AB1B69EEDF001F99EE /* DCXHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2351B69EEDF001F99EE /* DCXHTTPService.m */; };
+		B5A9C2AC1B69EEDF001F99EE /* DCXHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2351B69EEDF001F99EE /* DCXHTTPService.m */; };
+		B5A9C2AD1B69EEDF001F99EE /* DCXRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2361B69EEDF001F99EE /* DCXRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2AE1B69EEDF001F99EE /* DCXRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2361B69EEDF001F99EE /* DCXRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2AF1B69EEDF001F99EE /* DCXRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2371B69EEDF001F99EE /* DCXRequestOperation.m */; };
+		B5A9C2B01B69EEDF001F99EE /* DCXRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2371B69EEDF001F99EE /* DCXRequestOperation.m */; };
+		B5A9C2B11B69EEDF001F99EE /* DCXResource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2381B69EEDF001F99EE /* DCXResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2B21B69EEDF001F99EE /* DCXResource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2381B69EEDF001F99EE /* DCXResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2B31B69EEDF001F99EE /* DCXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2391B69EEDF001F99EE /* DCXResource.m */; };
+		B5A9C2B41B69EEDF001F99EE /* DCXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2391B69EEDF001F99EE /* DCXResource.m */; };
+		B5A9C2B51B69EEDF001F99EE /* DCXResourceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23A1B69EEDF001F99EE /* DCXResourceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2B61B69EEDF001F99EE /* DCXResourceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23A1B69EEDF001F99EE /* DCXResourceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2B71B69EEDF001F99EE /* DCXResourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23B1B69EEDF001F99EE /* DCXResourceItem.m */; };
+		B5A9C2B81B69EEDF001F99EE /* DCXResourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23B1B69EEDF001F99EE /* DCXResourceItem.m */; };
+		B5A9C2B91B69EEDF001F99EE /* DCXServiceMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23C1B69EEDF001F99EE /* DCXServiceMapping.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2BA1B69EEDF001F99EE /* DCXServiceMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23C1B69EEDF001F99EE /* DCXServiceMapping.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2BB1B69EEDF001F99EE /* DCXServiceMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23D1B69EEDF001F99EE /* DCXServiceMapping.m */; };
+		B5A9C2BC1B69EEDF001F99EE /* DCXServiceMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23D1B69EEDF001F99EE /* DCXServiceMapping.m */; };
+		B5A9C2BD1B69EEDF001F99EE /* DCXSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23E1B69EEDF001F99EE /* DCXSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2BE1B69EEDF001F99EE /* DCXSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C23E1B69EEDF001F99EE /* DCXSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2BF1B69EEDF001F99EE /* DCXSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23F1B69EEDF001F99EE /* DCXSession.m */; };
+		B5A9C2C01B69EEDF001F99EE /* DCXSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C23F1B69EEDF001F99EE /* DCXSession.m */; };
+		B5A9C2C11B69EEDF001F99EE /* DCXSession_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2401B69EEDF001F99EE /* DCXSession_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2C21B69EEDF001F99EE /* DCXSession_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2401B69EEDF001F99EE /* DCXSession_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2C31B69EEDF001F99EE /* DCXTransferSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2411B69EEDF001F99EE /* DCXTransferSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2C41B69EEDF001F99EE /* DCXTransferSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2411B69EEDF001F99EE /* DCXTransferSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A9C2C51B69EEDF001F99EE /* DCXCopyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2431B69EEDF001F99EE /* DCXCopyUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2C61B69EEDF001F99EE /* DCXCopyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2431B69EEDF001F99EE /* DCXCopyUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2C71B69EEDF001F99EE /* DCXCopyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2441B69EEDF001F99EE /* DCXCopyUtils.m */; };
+		B5A9C2C81B69EEDF001F99EE /* DCXCopyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2441B69EEDF001F99EE /* DCXCopyUtils.m */; };
+		B5A9C2C91B69EEDF001F99EE /* DCXErrorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2451B69EEDF001F99EE /* DCXErrorUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2CA1B69EEDF001F99EE /* DCXErrorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2451B69EEDF001F99EE /* DCXErrorUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2CB1B69EEDF001F99EE /* DCXErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2461B69EEDF001F99EE /* DCXErrorUtils.m */; };
+		B5A9C2CC1B69EEDF001F99EE /* DCXErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2461B69EEDF001F99EE /* DCXErrorUtils.m */; };
+		B5A9C2CD1B69EEDF001F99EE /* DCXFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2471B69EEDF001F99EE /* DCXFileUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2CE1B69EEDF001F99EE /* DCXFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2471B69EEDF001F99EE /* DCXFileUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2CF1B69EEDF001F99EE /* DCXFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2481B69EEDF001F99EE /* DCXFileUtils.m */; };
+		B5A9C2D01B69EEDF001F99EE /* DCXFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C2481B69EEDF001F99EE /* DCXFileUtils.m */; };
+		B5A9C2D11B69EEDF001F99EE /* DCXNetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2491B69EEDF001F99EE /* DCXNetworkUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2D21B69EEDF001F99EE /* DCXNetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C2491B69EEDF001F99EE /* DCXNetworkUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2D31B69EEDF001F99EE /* DCXNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C24A1B69EEDF001F99EE /* DCXNetworkUtils.m */; };
+		B5A9C2D41B69EEDF001F99EE /* DCXNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C24A1B69EEDF001F99EE /* DCXNetworkUtils.m */; };
+		B5A9C2D51B69EEDF001F99EE /* DCXUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C24B1B69EEDF001F99EE /* DCXUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2D61B69EEDF001F99EE /* DCXUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9C24B1B69EEDF001F99EE /* DCXUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B5A9C2D71B69EEDF001F99EE /* DCXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C24C1B69EEDF001F99EE /* DCXUtils.m */; };
+		B5A9C2D81B69EEDF001F99EE /* DCXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A9C24C1B69EEDF001F99EE /* DCXUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A9C1D11B69EE11001F99EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A9C1BB1B69EE10001F99EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A9C1C31B69EE10001F99EE;
+			remoteInfo = DigitalComposites;
+		};
+		B5A9C1F61B69EEC2001F99EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A9C1BB1B69EE10001F99EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A9C1E91B69EEC2001F99EE;
+			remoteInfo = DigitalCompositesOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B528522D1B69FB120041DA7B /* pulled */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pulled; path = assets/pulled; sourceTree = "<group>"; };
+		B528522E1B69FB120041DA7B /* pulledNew */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pulledNew; path = assets/pulledNew; sourceTree = "<group>"; };
+		B528522F1B69FB120041DA7B /* pushed */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pushed; path = assets/pushed; sourceTree = "<group>"; };
+		B52852301B69FB120041DA7B /* pushedNew */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pushedNew; path = assets/pushedNew; sourceTree = "<group>"; };
+		B52852311B69FB120041DA7B /* unbound */ = {isa = PBXFileReference; lastKnownFileType = folder; name = unbound; path = assets/unbound; sourceTree = "<group>"; };
+		B55FFA9C1B7143BB00081B7D /* Component.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Component.png; path = assets/Component.png; sourceTree = "<group>"; };
+		B5A9C1C41B69EE10001F99EE /* DigitalComposites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DigitalComposites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A9C1C81B69EE10001F99EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A9C1C91B69EE11001F99EE /* DigitalComposites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitalComposites.h; sourceTree = "<group>"; };
+		B5A9C1CF1B69EE11001F99EE /* DigitalCompositesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalCompositesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A9C1D51B69EE11001F99EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A9C1D61B69EE11001F99EE /* DigitalCompositesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalCompositesTests.m; sourceTree = "<group>"; };
+		B5A9C1EA1B69EEC2001F99EE /* DigitalCompositesOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DigitalCompositesOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A9C1ED1B69EEC2001F99EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A9C1EE1B69EEC2001F99EE /* DigitalCompositesOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitalCompositesOSX.h; sourceTree = "<group>"; };
+		B5A9C1F41B69EEC2001F99EE /* DigitalCompositesOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalCompositesOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A9C1FA1B69EEC2001F99EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A9C1FB1B69EEC2001F99EE /* DigitalCompositesOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalCompositesOSXTests.m; sourceTree = "<group>"; };
+		B5A9C2041B69EEDF001F99EE /* DCX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCX.h; sourceTree = "<group>"; };
+		B5A9C2061B69EEDF001F99EE /* DCXBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXBranch.h; sourceTree = "<group>"; };
+		B5A9C2071B69EEDF001F99EE /* DCXBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXBranch.m; sourceTree = "<group>"; };
+		B5A9C2081B69EEDF001F99EE /* DCXBranch_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXBranch_Internal.h; sourceTree = "<group>"; };
+		B5A9C2091B69EEDF001F99EE /* DCXComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXComponent.h; sourceTree = "<group>"; };
+		B5A9C20A1B69EEDF001F99EE /* DCXComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXComponent.m; sourceTree = "<group>"; };
+		B5A9C20B1B69EEDF001F99EE /* DCXComponent_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXComponent_Internal.h; sourceTree = "<group>"; };
+		B5A9C20C1B69EEDF001F99EE /* DCXComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXComposite.h; sourceTree = "<group>"; };
+		B5A9C20D1B69EEDF001F99EE /* DCXComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXComposite.m; sourceTree = "<group>"; };
+		B5A9C20E1B69EEDF001F99EE /* DCXComposite_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXComposite_Internal.h; sourceTree = "<group>"; };
+		B5A9C20F1B69EEDF001F99EE /* DCXCompositeXfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXCompositeXfer.h; sourceTree = "<group>"; };
+		B5A9C2101B69EEDF001F99EE /* DCXCompositeXfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXCompositeXfer.m; sourceTree = "<group>"; };
+		B5A9C2111B69EEDF001F99EE /* DCXConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXConstants.h; sourceTree = "<group>"; };
+		B5A9C2121B69EEDF001F99EE /* DCXConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXConstants.m; sourceTree = "<group>"; };
+		B5A9C2131B69EEDF001F99EE /* DCXConstants_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXConstants_Internal.h; sourceTree = "<group>"; };
+		B5A9C2141B69EEDF001F99EE /* DCXError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXError.h; sourceTree = "<group>"; };
+		B5A9C2151B69EEDF001F99EE /* DCXError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXError.m; sourceTree = "<group>"; };
+		B5A9C2161B69EEDF001F99EE /* DCXLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXLocalStorage.h; sourceTree = "<group>"; };
+		B5A9C2171B69EEDF001F99EE /* DCXLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXLocalStorage.m; sourceTree = "<group>"; };
+		B5A9C2181B69EEDF001F99EE /* DCXManifest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXManifest.h; sourceTree = "<group>"; };
+		B5A9C2191B69EEDF001F99EE /* DCXManifest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXManifest.m; sourceTree = "<group>"; };
+		B5A9C21A1B69EEDF001F99EE /* DCXManifestFormatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXManifestFormatConverter.h; sourceTree = "<group>"; };
+		B5A9C21B1B69EEDF001F99EE /* DCXManifestFormatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXManifestFormatConverter.m; sourceTree = "<group>"; };
+		B5A9C21C1B69EEDF001F99EE /* DCXMutableBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableBranch.h; sourceTree = "<group>"; };
+		B5A9C21D1B69EEDF001F99EE /* DCXMutableBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXMutableBranch.m; sourceTree = "<group>"; };
+		B5A9C21E1B69EEDF001F99EE /* DCXMutableBranch_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableBranch_Internal.h; sourceTree = "<group>"; };
+		B5A9C21F1B69EEDF001F99EE /* DCXMutableComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableComponent.h; sourceTree = "<group>"; };
+		B5A9C2201B69EEDF001F99EE /* DCXMutableComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXMutableComponent.m; sourceTree = "<group>"; };
+		B5A9C2211B69EEDF001F99EE /* DCXMutableComponent_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableComponent_Internal.h; sourceTree = "<group>"; };
+		B5A9C2221B69EEDF001F99EE /* DCXMutableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableNode.h; sourceTree = "<group>"; };
+		B5A9C2231B69EEDF001F99EE /* DCXMutableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXMutableNode.m; sourceTree = "<group>"; };
+		B5A9C2241B69EEDF001F99EE /* DCXMutableNode_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXMutableNode_Internal.h; sourceTree = "<group>"; };
+		B5A9C2251B69EEDF001F99EE /* DCXNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXNode.h; sourceTree = "<group>"; };
+		B5A9C2261B69EEDF001F99EE /* DCXNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXNode.m; sourceTree = "<group>"; };
+		B5A9C2271B69EEDF001F99EE /* DCXNode_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXNode_Internal.h; sourceTree = "<group>"; };
+		B5A9C2281B69EEDF001F99EE /* DCXPushJournal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXPushJournal.h; sourceTree = "<group>"; };
+		B5A9C2291B69EEDF001F99EE /* DCXPushJournal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXPushJournal.m; sourceTree = "<group>"; };
+		B5A9C22B1B69EEDF001F99EE /* DCXCompositeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXCompositeRequest.h; sourceTree = "<group>"; };
+		B5A9C22C1B69EEDF001F99EE /* DCXCompositeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXCompositeRequest.m; sourceTree = "<group>"; };
+		B5A9C22D1B69EEDF001F99EE /* DCXDropboxSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXDropboxSession.h; sourceTree = "<group>"; };
+		B5A9C22E1B69EEDF001F99EE /* DCXDropboxSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXDropboxSession.m; sourceTree = "<group>"; };
+		B5A9C22F1B69EEDF001F99EE /* DCXHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXHTTPRequest.h; sourceTree = "<group>"; };
+		B5A9C2301B69EEDF001F99EE /* DCXHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXHTTPRequest.m; sourceTree = "<group>"; };
+		B5A9C2311B69EEDF001F99EE /* DCXHTTPRequest_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXHTTPRequest_Internal.h; sourceTree = "<group>"; };
+		B5A9C2321B69EEDF001F99EE /* DCXHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXHTTPResponse.h; sourceTree = "<group>"; };
+		B5A9C2331B69EEDF001F99EE /* DCXHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXHTTPResponse.m; sourceTree = "<group>"; };
+		B5A9C2341B69EEDF001F99EE /* DCXHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXHTTPService.h; sourceTree = "<group>"; };
+		B5A9C2351B69EEDF001F99EE /* DCXHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXHTTPService.m; sourceTree = "<group>"; };
+		B5A9C2361B69EEDF001F99EE /* DCXRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXRequestOperation.h; sourceTree = "<group>"; };
+		B5A9C2371B69EEDF001F99EE /* DCXRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXRequestOperation.m; sourceTree = "<group>"; };
+		B5A9C2381B69EEDF001F99EE /* DCXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXResource.h; sourceTree = "<group>"; };
+		B5A9C2391B69EEDF001F99EE /* DCXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXResource.m; sourceTree = "<group>"; };
+		B5A9C23A1B69EEDF001F99EE /* DCXResourceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXResourceItem.h; sourceTree = "<group>"; };
+		B5A9C23B1B69EEDF001F99EE /* DCXResourceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXResourceItem.m; sourceTree = "<group>"; };
+		B5A9C23C1B69EEDF001F99EE /* DCXServiceMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXServiceMapping.h; sourceTree = "<group>"; };
+		B5A9C23D1B69EEDF001F99EE /* DCXServiceMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXServiceMapping.m; sourceTree = "<group>"; };
+		B5A9C23E1B69EEDF001F99EE /* DCXSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXSession.h; sourceTree = "<group>"; };
+		B5A9C23F1B69EEDF001F99EE /* DCXSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXSession.m; sourceTree = "<group>"; };
+		B5A9C2401B69EEDF001F99EE /* DCXSession_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXSession_Internal.h; sourceTree = "<group>"; };
+		B5A9C2411B69EEDF001F99EE /* DCXTransferSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXTransferSessionProtocol.h; sourceTree = "<group>"; };
+		B5A9C2431B69EEDF001F99EE /* DCXCopyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXCopyUtils.h; sourceTree = "<group>"; };
+		B5A9C2441B69EEDF001F99EE /* DCXCopyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXCopyUtils.m; sourceTree = "<group>"; };
+		B5A9C2451B69EEDF001F99EE /* DCXErrorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXErrorUtils.h; sourceTree = "<group>"; };
+		B5A9C2461B69EEDF001F99EE /* DCXErrorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXErrorUtils.m; sourceTree = "<group>"; };
+		B5A9C2471B69EEDF001F99EE /* DCXFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXFileUtils.h; sourceTree = "<group>"; };
+		B5A9C2481B69EEDF001F99EE /* DCXFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXFileUtils.m; sourceTree = "<group>"; };
+		B5A9C2491B69EEDF001F99EE /* DCXNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXNetworkUtils.h; sourceTree = "<group>"; };
+		B5A9C24A1B69EEDF001F99EE /* DCXNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXNetworkUtils.m; sourceTree = "<group>"; };
+		B5A9C24B1B69EEDF001F99EE /* DCXUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCXUtils.h; sourceTree = "<group>"; };
+		B5A9C24C1B69EEDF001F99EE /* DCXUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCXUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A9C1C01B69EE10001F99EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1CC1B69EE11001F99EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C1D01B69EE11001F99EE /* DigitalComposites.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1E61B69EEC2001F99EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1F11B69EEC2001F99EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C1F51B69EEC2001F99EE /* DigitalCompositesOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A9C1BA1B69EE10001F99EE = {
+			isa = PBXGroup;
+			children = (
+				B5A9C2031B69EEDF001F99EE /* src */,
+				B5A9C1C61B69EE10001F99EE /* DigitalComposites */,
+				B5A9C1D31B69EE11001F99EE /* DigitalCompositesTests */,
+				B5A9C1EB1B69EEC2001F99EE /* DigitalCompositesOSX */,
+				B5A9C1F81B69EEC2001F99EE /* DigitalCompositesOSXTests */,
+				B5A9C1C51B69EE10001F99EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A9C1C51B69EE10001F99EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1C41B69EE10001F99EE /* DigitalComposites.framework */,
+				B5A9C1CF1B69EE11001F99EE /* DigitalCompositesTests.xctest */,
+				B5A9C1EA1B69EEC2001F99EE /* DigitalCompositesOSX.framework */,
+				B5A9C1F41B69EEC2001F99EE /* DigitalCompositesOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A9C1C61B69EE10001F99EE /* DigitalComposites */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1C91B69EE11001F99EE /* DigitalComposites.h */,
+				B5A9C1C71B69EE10001F99EE /* Supporting Files */,
+			);
+			path = DigitalComposites;
+			sourceTree = "<group>";
+		};
+		B5A9C1C71B69EE10001F99EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1C81B69EE10001F99EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A9C1D31B69EE11001F99EE /* DigitalCompositesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1D61B69EE11001F99EE /* DigitalCompositesTests.m */,
+				B5A9C1D41B69EE11001F99EE /* Supporting Files */,
+			);
+			path = DigitalCompositesTests;
+			sourceTree = "<group>";
+		};
+		B5A9C1D41B69EE11001F99EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1D51B69EE11001F99EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A9C1EB1B69EEC2001F99EE /* DigitalCompositesOSX */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1EE1B69EEC2001F99EE /* DigitalCompositesOSX.h */,
+				B5A9C1EC1B69EEC2001F99EE /* Supporting Files */,
+			);
+			path = DigitalCompositesOSX;
+			sourceTree = "<group>";
+		};
+		B5A9C1EC1B69EEC2001F99EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1ED1B69EEC2001F99EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A9C1F81B69EEC2001F99EE /* DigitalCompositesOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C1FB1B69EEC2001F99EE /* DigitalCompositesOSXTests.m */,
+				B5A9C1F91B69EEC2001F99EE /* Supporting Files */,
+			);
+			path = DigitalCompositesOSXTests;
+			sourceTree = "<group>";
+		};
+		B5A9C1F91B69EEC2001F99EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55FFA9C1B7143BB00081B7D /* Component.png */,
+				B528522D1B69FB120041DA7B /* pulled */,
+				B528522E1B69FB120041DA7B /* pulledNew */,
+				B528522F1B69FB120041DA7B /* pushed */,
+				B52852301B69FB120041DA7B /* pushedNew */,
+				B52852311B69FB120041DA7B /* unbound */,
+				B5A9C1FA1B69EEC2001F99EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A9C2031B69EEDF001F99EE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C2041B69EEDF001F99EE /* DCX.h */,
+				B5A9C2051B69EEDF001F99EE /* model */,
+				B5A9C22A1B69EEDF001F99EE /* service */,
+				B5A9C2421B69EEDF001F99EE /* util */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B5A9C2051B69EEDF001F99EE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C2061B69EEDF001F99EE /* DCXBranch.h */,
+				B5A9C2071B69EEDF001F99EE /* DCXBranch.m */,
+				B5A9C2081B69EEDF001F99EE /* DCXBranch_Internal.h */,
+				B5A9C2091B69EEDF001F99EE /* DCXComponent.h */,
+				B5A9C20A1B69EEDF001F99EE /* DCXComponent.m */,
+				B5A9C20B1B69EEDF001F99EE /* DCXComponent_Internal.h */,
+				B5A9C20C1B69EEDF001F99EE /* DCXComposite.h */,
+				B5A9C20D1B69EEDF001F99EE /* DCXComposite.m */,
+				B5A9C20E1B69EEDF001F99EE /* DCXComposite_Internal.h */,
+				B5A9C20F1B69EEDF001F99EE /* DCXCompositeXfer.h */,
+				B5A9C2101B69EEDF001F99EE /* DCXCompositeXfer.m */,
+				B5A9C2111B69EEDF001F99EE /* DCXConstants.h */,
+				B5A9C2121B69EEDF001F99EE /* DCXConstants.m */,
+				B5A9C2131B69EEDF001F99EE /* DCXConstants_Internal.h */,
+				B5A9C2141B69EEDF001F99EE /* DCXError.h */,
+				B5A9C2151B69EEDF001F99EE /* DCXError.m */,
+				B5A9C2161B69EEDF001F99EE /* DCXLocalStorage.h */,
+				B5A9C2171B69EEDF001F99EE /* DCXLocalStorage.m */,
+				B5A9C2181B69EEDF001F99EE /* DCXManifest.h */,
+				B5A9C2191B69EEDF001F99EE /* DCXManifest.m */,
+				B5A9C21A1B69EEDF001F99EE /* DCXManifestFormatConverter.h */,
+				B5A9C21B1B69EEDF001F99EE /* DCXManifestFormatConverter.m */,
+				B5A9C21C1B69EEDF001F99EE /* DCXMutableBranch.h */,
+				B5A9C21D1B69EEDF001F99EE /* DCXMutableBranch.m */,
+				B5A9C21E1B69EEDF001F99EE /* DCXMutableBranch_Internal.h */,
+				B5A9C21F1B69EEDF001F99EE /* DCXMutableComponent.h */,
+				B5A9C2201B69EEDF001F99EE /* DCXMutableComponent.m */,
+				B5A9C2211B69EEDF001F99EE /* DCXMutableComponent_Internal.h */,
+				B5A9C2221B69EEDF001F99EE /* DCXMutableNode.h */,
+				B5A9C2231B69EEDF001F99EE /* DCXMutableNode.m */,
+				B5A9C2241B69EEDF001F99EE /* DCXMutableNode_Internal.h */,
+				B5A9C2251B69EEDF001F99EE /* DCXNode.h */,
+				B5A9C2261B69EEDF001F99EE /* DCXNode.m */,
+				B5A9C2271B69EEDF001F99EE /* DCXNode_Internal.h */,
+				B5A9C2281B69EEDF001F99EE /* DCXPushJournal.h */,
+				B5A9C2291B69EEDF001F99EE /* DCXPushJournal.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B5A9C22A1B69EEDF001F99EE /* service */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C22B1B69EEDF001F99EE /* DCXCompositeRequest.h */,
+				B5A9C22C1B69EEDF001F99EE /* DCXCompositeRequest.m */,
+				B5A9C22D1B69EEDF001F99EE /* DCXDropboxSession.h */,
+				B5A9C22E1B69EEDF001F99EE /* DCXDropboxSession.m */,
+				B5A9C22F1B69EEDF001F99EE /* DCXHTTPRequest.h */,
+				B5A9C2301B69EEDF001F99EE /* DCXHTTPRequest.m */,
+				B5A9C2311B69EEDF001F99EE /* DCXHTTPRequest_Internal.h */,
+				B5A9C2321B69EEDF001F99EE /* DCXHTTPResponse.h */,
+				B5A9C2331B69EEDF001F99EE /* DCXHTTPResponse.m */,
+				B5A9C2341B69EEDF001F99EE /* DCXHTTPService.h */,
+				B5A9C2351B69EEDF001F99EE /* DCXHTTPService.m */,
+				B5A9C2361B69EEDF001F99EE /* DCXRequestOperation.h */,
+				B5A9C2371B69EEDF001F99EE /* DCXRequestOperation.m */,
+				B5A9C2381B69EEDF001F99EE /* DCXResource.h */,
+				B5A9C2391B69EEDF001F99EE /* DCXResource.m */,
+				B5A9C23A1B69EEDF001F99EE /* DCXResourceItem.h */,
+				B5A9C23B1B69EEDF001F99EE /* DCXResourceItem.m */,
+				B5A9C23C1B69EEDF001F99EE /* DCXServiceMapping.h */,
+				B5A9C23D1B69EEDF001F99EE /* DCXServiceMapping.m */,
+				B5A9C23E1B69EEDF001F99EE /* DCXSession.h */,
+				B5A9C23F1B69EEDF001F99EE /* DCXSession.m */,
+				B5A9C2401B69EEDF001F99EE /* DCXSession_Internal.h */,
+				B5A9C2411B69EEDF001F99EE /* DCXTransferSessionProtocol.h */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		B5A9C2421B69EEDF001F99EE /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9C2431B69EEDF001F99EE /* DCXCopyUtils.h */,
+				B5A9C2441B69EEDF001F99EE /* DCXCopyUtils.m */,
+				B5A9C2451B69EEDF001F99EE /* DCXErrorUtils.h */,
+				B5A9C2461B69EEDF001F99EE /* DCXErrorUtils.m */,
+				B5A9C2471B69EEDF001F99EE /* DCXFileUtils.h */,
+				B5A9C2481B69EEDF001F99EE /* DCXFileUtils.m */,
+				B5A9C2491B69EEDF001F99EE /* DCXNetworkUtils.h */,
+				B5A9C24A1B69EEDF001F99EE /* DCXNetworkUtils.m */,
+				B5A9C24B1B69EEDF001F99EE /* DCXUtils.h */,
+				B5A9C24C1B69EEDF001F99EE /* DCXUtils.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5A9C1C11B69EE10001F99EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C24D1B69EEDF001F99EE /* DCX.h in Headers */,
+				B5A9C2B51B69EEDF001F99EE /* DCXResourceItem.h in Headers */,
+				B5A9C2651B69EEDF001F99EE /* DCXConstants.h in Headers */,
+				B5A9C25B1B69EEDF001F99EE /* DCXComposite.h in Headers */,
+				B5A9C26B1B69EEDF001F99EE /* DCXError.h in Headers */,
+				B5A9C2611B69EEDF001F99EE /* DCXCompositeXfer.h in Headers */,
+				B5A9C2811B69EEDF001F99EE /* DCXMutableComponent.h in Headers */,
+				B5A9C2A91B69EEDF001F99EE /* DCXHTTPService.h in Headers */,
+				B5A9C29B1B69EEDF001F99EE /* DCXDropboxSession.h in Headers */,
+				B5A9C24F1B69EEDF001F99EE /* DCXBranch.h in Headers */,
+				B5A9C2551B69EEDF001F99EE /* DCXComponent.h in Headers */,
+				B5A9C2B11B69EEDF001F99EE /* DCXResource.h in Headers */,
+				B5A9C2BD1B69EEDF001F99EE /* DCXSession.h in Headers */,
+				B5A9C29F1B69EEDF001F99EE /* DCXHTTPRequest.h in Headers */,
+				B5A9C2C31B69EEDF001F99EE /* DCXTransferSessionProtocol.h in Headers */,
+				B5A9C28D1B69EEDF001F99EE /* DCXNode.h in Headers */,
+				B5A9C2A51B69EEDF001F99EE /* DCXHTTPResponse.h in Headers */,
+				B5A9C27B1B69EEDF001F99EE /* DCXMutableBranch.h in Headers */,
+				B5A9C2871B69EEDF001F99EE /* DCXMutableNode.h in Headers */,
+				B5A9C2851B69EEDF001F99EE /* DCXMutableComponent_Internal.h in Headers */,
+				B5A9C2D11B69EEDF001F99EE /* DCXNetworkUtils.h in Headers */,
+				B5A9C2CD1B69EEDF001F99EE /* DCXFileUtils.h in Headers */,
+				B5A9C2C11B69EEDF001F99EE /* DCXSession_Internal.h in Headers */,
+				B5A9C2731B69EEDF001F99EE /* DCXManifest.h in Headers */,
+				B5A9C2911B69EEDF001F99EE /* DCXNode_Internal.h in Headers */,
+				B5A9C2591B69EEDF001F99EE /* DCXComponent_Internal.h in Headers */,
+				B5A9C2771B69EEDF001F99EE /* DCXManifestFormatConverter.h in Headers */,
+				B5A9C27F1B69EEDF001F99EE /* DCXMutableBranch_Internal.h in Headers */,
+				B5A9C26F1B69EEDF001F99EE /* DCXLocalStorage.h in Headers */,
+				B5A9C2691B69EEDF001F99EE /* DCXConstants_Internal.h in Headers */,
+				B5A9C28B1B69EEDF001F99EE /* DCXMutableNode_Internal.h in Headers */,
+				B5A9C2931B69EEDF001F99EE /* DCXPushJournal.h in Headers */,
+				B5A9C2B91B69EEDF001F99EE /* DCXServiceMapping.h in Headers */,
+				B5A9C2C51B69EEDF001F99EE /* DCXCopyUtils.h in Headers */,
+				B5A9C2AD1B69EEDF001F99EE /* DCXRequestOperation.h in Headers */,
+				B5A9C2D51B69EEDF001F99EE /* DCXUtils.h in Headers */,
+				B5A9C2A31B69EEDF001F99EE /* DCXHTTPRequest_Internal.h in Headers */,
+				B5A9C2531B69EEDF001F99EE /* DCXBranch_Internal.h in Headers */,
+				B5A9C25F1B69EEDF001F99EE /* DCXComposite_Internal.h in Headers */,
+				B5A9C2971B69EEDF001F99EE /* DCXCompositeRequest.h in Headers */,
+				B5A9C2C91B69EEDF001F99EE /* DCXErrorUtils.h in Headers */,
+				B5A9C1CA1B69EE11001F99EE /* DigitalComposites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1E71B69EEC2001F99EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C2B61B69EEDF001F99EE /* DCXResourceItem.h in Headers */,
+				B5A9C2881B69EEDF001F99EE /* DCXMutableNode.h in Headers */,
+				B5A9C24E1B69EEDF001F99EE /* DCX.h in Headers */,
+				B5A9C26C1B69EEDF001F99EE /* DCXError.h in Headers */,
+				B5A9C2621B69EEDF001F99EE /* DCXCompositeXfer.h in Headers */,
+				B5A9C2821B69EEDF001F99EE /* DCXMutableComponent.h in Headers */,
+				B5A9C2661B69EEDF001F99EE /* DCXConstants.h in Headers */,
+				B5A9C2501B69EEDF001F99EE /* DCXBranch.h in Headers */,
+				B5A9C29C1B69EEDF001F99EE /* DCXDropboxSession.h in Headers */,
+				B5A9C25C1B69EEDF001F99EE /* DCXComposite.h in Headers */,
+				B5A9C2561B69EEDF001F99EE /* DCXComponent.h in Headers */,
+				B5A9C2AA1B69EEDF001F99EE /* DCXHTTPService.h in Headers */,
+				B5A9C2A61B69EEDF001F99EE /* DCXHTTPResponse.h in Headers */,
+				B5A9C2741B69EEDF001F99EE /* DCXManifest.h in Headers */,
+				B5A9C2C41B69EEDF001F99EE /* DCXTransferSessionProtocol.h in Headers */,
+				B5A9C28E1B69EEDF001F99EE /* DCXNode.h in Headers */,
+				B5A9C2BE1B69EEDF001F99EE /* DCXSession.h in Headers */,
+				B5A9C27C1B69EEDF001F99EE /* DCXMutableBranch.h in Headers */,
+				B5A9C2B21B69EEDF001F99EE /* DCXResource.h in Headers */,
+				B5A9C2A01B69EEDF001F99EE /* DCXHTTPRequest.h in Headers */,
+				B5A9C2861B69EEDF001F99EE /* DCXMutableComponent_Internal.h in Headers */,
+				B5A9C2CA1B69EEDF001F99EE /* DCXErrorUtils.h in Headers */,
+				B5A9C2CE1B69EEDF001F99EE /* DCXFileUtils.h in Headers */,
+				B5A9C2C21B69EEDF001F99EE /* DCXSession_Internal.h in Headers */,
+				B5A9C2981B69EEDF001F99EE /* DCXCompositeRequest.h in Headers */,
+				B5A9C2921B69EEDF001F99EE /* DCXNode_Internal.h in Headers */,
+				B5A9C2D21B69EEDF001F99EE /* DCXNetworkUtils.h in Headers */,
+				B5A9C25A1B69EEDF001F99EE /* DCXComponent_Internal.h in Headers */,
+				B5A9C2781B69EEDF001F99EE /* DCXManifestFormatConverter.h in Headers */,
+				B5A9C2601B69EEDF001F99EE /* DCXComposite_Internal.h in Headers */,
+				B5A9C2541B69EEDF001F99EE /* DCXBranch_Internal.h in Headers */,
+				B5A9C2701B69EEDF001F99EE /* DCXLocalStorage.h in Headers */,
+				B5A9C2801B69EEDF001F99EE /* DCXMutableBranch_Internal.h in Headers */,
+				B5A9C2D61B69EEDF001F99EE /* DCXUtils.h in Headers */,
+				B5A9C26A1B69EEDF001F99EE /* DCXConstants_Internal.h in Headers */,
+				B5A9C28C1B69EEDF001F99EE /* DCXMutableNode_Internal.h in Headers */,
+				B5A9C2AE1B69EEDF001F99EE /* DCXRequestOperation.h in Headers */,
+				B5A9C2BA1B69EEDF001F99EE /* DCXServiceMapping.h in Headers */,
+				B5A9C2A41B69EEDF001F99EE /* DCXHTTPRequest_Internal.h in Headers */,
+				B5A9C2941B69EEDF001F99EE /* DCXPushJournal.h in Headers */,
+				B5A9C2C61B69EEDF001F99EE /* DCXCopyUtils.h in Headers */,
+				B5A9C1EF1B69EEC2001F99EE /* DigitalCompositesOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5A9C1C31B69EE10001F99EE /* DigitalComposites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A9C1DA1B69EE11001F99EE /* Build configuration list for PBXNativeTarget "DigitalComposites" */;
+			buildPhases = (
+				B5A9C1BF1B69EE10001F99EE /* Sources */,
+				B5A9C1C01B69EE10001F99EE /* Frameworks */,
+				B5A9C1C11B69EE10001F99EE /* Headers */,
+				B5A9C1C21B69EE10001F99EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalComposites;
+			productName = DigitalComposites;
+			productReference = B5A9C1C41B69EE10001F99EE /* DigitalComposites.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5A9C1CE1B69EE11001F99EE /* DigitalCompositesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A9C1DD1B69EE11001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesTests" */;
+			buildPhases = (
+				B5A9C1CB1B69EE11001F99EE /* Sources */,
+				B5A9C1CC1B69EE11001F99EE /* Frameworks */,
+				B5A9C1CD1B69EE11001F99EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A9C1D21B69EE11001F99EE /* PBXTargetDependency */,
+			);
+			name = DigitalCompositesTests;
+			productName = DigitalCompositesTests;
+			productReference = B5A9C1CF1B69EE11001F99EE /* DigitalCompositesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5A9C1E91B69EEC2001F99EE /* DigitalCompositesOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A9C1FD1B69EEC2001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesOSX" */;
+			buildPhases = (
+				B5A9C1E51B69EEC2001F99EE /* Sources */,
+				B5A9C1E61B69EEC2001F99EE /* Frameworks */,
+				B5A9C1E71B69EEC2001F99EE /* Headers */,
+				B5A9C1E81B69EEC2001F99EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalCompositesOSX;
+			productName = DigitalCompositesOSX;
+			productReference = B5A9C1EA1B69EEC2001F99EE /* DigitalCompositesOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5A9C1F31B69EEC2001F99EE /* DigitalCompositesOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A9C2001B69EEC2001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesOSXTests" */;
+			buildPhases = (
+				B5A9C1F01B69EEC2001F99EE /* Sources */,
+				B5A9C1F11B69EEC2001F99EE /* Frameworks */,
+				B5A9C1F21B69EEC2001F99EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A9C1F71B69EEC2001F99EE /* PBXTargetDependency */,
+			);
+			name = DigitalCompositesOSXTests;
+			productName = DigitalCompositesOSXTests;
+			productReference = B5A9C1F41B69EEC2001F99EE /* DigitalCompositesOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A9C1BB1B69EE10001F99EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					B5A9C1C31B69EE10001F99EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5A9C1CE1B69EE11001F99EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5A9C1E01B69EE41001F99EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5A9C1E91B69EEC2001F99EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5A9C1F31B69EEC2001F99EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B5A9C1BE1B69EE10001F99EE /* Build configuration list for PBXProject "DigitalComposites" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5A9C1BA1B69EE10001F99EE;
+			productRefGroup = B5A9C1C51B69EE10001F99EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A9C1C31B69EE10001F99EE /* DigitalComposites */,
+				B5A9C1CE1B69EE11001F99EE /* DigitalCompositesTests */,
+				B5A9C1E01B69EE41001F99EE /* DigitalCompositesAggregate */,
+				B5A9C1E91B69EEC2001F99EE /* DigitalCompositesOSX */,
+				B5A9C1F31B69EEC2001F99EE /* DigitalCompositesOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A9C1C21B69EE10001F99EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1CD1B69EE11001F99EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1E81B69EEC2001F99EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1F21B69EEC2001F99EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52852371B69FB120041DA7B /* unbound in Resources */,
+				B55FFA9D1B7143BB00081B7D /* Component.png in Resources */,
+				B52852331B69FB120041DA7B /* pulled in Resources */,
+				B52852341B69FB120041DA7B /* pulledNew in Resources */,
+				B52852361B69FB120041DA7B /* pushedNew in Resources */,
+				B52852351B69FB120041DA7B /* pushed in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5A9C1E41B69EE49001F99EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A9C1BF1B69EE10001F99EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C2631B69EEDF001F99EE /* DCXCompositeXfer.m in Sources */,
+				B5A9C2991B69EEDF001F99EE /* DCXCompositeRequest.m in Sources */,
+				B5A9C2D31B69EEDF001F99EE /* DCXNetworkUtils.m in Sources */,
+				B5A9C2BF1B69EEDF001F99EE /* DCXSession.m in Sources */,
+				B5A9C2CF1B69EEDF001F99EE /* DCXFileUtils.m in Sources */,
+				B5A9C2511B69EEDF001F99EE /* DCXBranch.m in Sources */,
+				B5A9C2891B69EEDF001F99EE /* DCXMutableNode.m in Sources */,
+				B5A9C2B31B69EEDF001F99EE /* DCXResource.m in Sources */,
+				B5A9C26D1B69EEDF001F99EE /* DCXError.m in Sources */,
+				B5A9C2791B69EEDF001F99EE /* DCXManifestFormatConverter.m in Sources */,
+				B5A9C2671B69EEDF001F99EE /* DCXConstants.m in Sources */,
+				B5A9C2AB1B69EEDF001F99EE /* DCXHTTPService.m in Sources */,
+				B5A9C25D1B69EEDF001F99EE /* DCXComposite.m in Sources */,
+				B5A9C2571B69EEDF001F99EE /* DCXComponent.m in Sources */,
+				B5A9C2751B69EEDF001F99EE /* DCXManifest.m in Sources */,
+				B5A9C27D1B69EEDF001F99EE /* DCXMutableBranch.m in Sources */,
+				B5A9C2711B69EEDF001F99EE /* DCXLocalStorage.m in Sources */,
+				B5A9C2951B69EEDF001F99EE /* DCXPushJournal.m in Sources */,
+				B5A9C28F1B69EEDF001F99EE /* DCXNode.m in Sources */,
+				B5A9C2A11B69EEDF001F99EE /* DCXHTTPRequest.m in Sources */,
+				B5A9C2831B69EEDF001F99EE /* DCXMutableComponent.m in Sources */,
+				B5A9C2B71B69EEDF001F99EE /* DCXResourceItem.m in Sources */,
+				B5A9C2BB1B69EEDF001F99EE /* DCXServiceMapping.m in Sources */,
+				B5A9C2AF1B69EEDF001F99EE /* DCXRequestOperation.m in Sources */,
+				B5A9C2CB1B69EEDF001F99EE /* DCXErrorUtils.m in Sources */,
+				B5A9C2A71B69EEDF001F99EE /* DCXHTTPResponse.m in Sources */,
+				B5A9C2C71B69EEDF001F99EE /* DCXCopyUtils.m in Sources */,
+				B5A9C29D1B69EEDF001F99EE /* DCXDropboxSession.m in Sources */,
+				B5A9C2D71B69EEDF001F99EE /* DCXUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1CB1B69EE11001F99EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C1D71B69EE11001F99EE /* DigitalCompositesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1E51B69EEC2001F99EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C2641B69EEDF001F99EE /* DCXCompositeXfer.m in Sources */,
+				B5A9C29A1B69EEDF001F99EE /* DCXCompositeRequest.m in Sources */,
+				B5A9C2D41B69EEDF001F99EE /* DCXNetworkUtils.m in Sources */,
+				B5A9C2C01B69EEDF001F99EE /* DCXSession.m in Sources */,
+				B5A9C2D01B69EEDF001F99EE /* DCXFileUtils.m in Sources */,
+				B5A9C2521B69EEDF001F99EE /* DCXBranch.m in Sources */,
+				B5A9C28A1B69EEDF001F99EE /* DCXMutableNode.m in Sources */,
+				B5A9C2B41B69EEDF001F99EE /* DCXResource.m in Sources */,
+				B5A9C26E1B69EEDF001F99EE /* DCXError.m in Sources */,
+				B5A9C27A1B69EEDF001F99EE /* DCXManifestFormatConverter.m in Sources */,
+				B5A9C2681B69EEDF001F99EE /* DCXConstants.m in Sources */,
+				B5A9C2AC1B69EEDF001F99EE /* DCXHTTPService.m in Sources */,
+				B5A9C25E1B69EEDF001F99EE /* DCXComposite.m in Sources */,
+				B5A9C2581B69EEDF001F99EE /* DCXComponent.m in Sources */,
+				B5A9C2761B69EEDF001F99EE /* DCXManifest.m in Sources */,
+				B5A9C27E1B69EEDF001F99EE /* DCXMutableBranch.m in Sources */,
+				B5A9C2721B69EEDF001F99EE /* DCXLocalStorage.m in Sources */,
+				B5A9C2961B69EEDF001F99EE /* DCXPushJournal.m in Sources */,
+				B5A9C2901B69EEDF001F99EE /* DCXNode.m in Sources */,
+				B5A9C2A21B69EEDF001F99EE /* DCXHTTPRequest.m in Sources */,
+				B5A9C2841B69EEDF001F99EE /* DCXMutableComponent.m in Sources */,
+				B5A9C2B81B69EEDF001F99EE /* DCXResourceItem.m in Sources */,
+				B5A9C2BC1B69EEDF001F99EE /* DCXServiceMapping.m in Sources */,
+				B5A9C2B01B69EEDF001F99EE /* DCXRequestOperation.m in Sources */,
+				B5A9C2CC1B69EEDF001F99EE /* DCXErrorUtils.m in Sources */,
+				B5A9C2A81B69EEDF001F99EE /* DCXHTTPResponse.m in Sources */,
+				B5A9C2C81B69EEDF001F99EE /* DCXCopyUtils.m in Sources */,
+				B5A9C29E1B69EEDF001F99EE /* DCXDropboxSession.m in Sources */,
+				B5A9C2D81B69EEDF001F99EE /* DCXUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9C1F01B69EEC2001F99EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A9C1FC1B69EEC2001F99EE /* DigitalCompositesOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A9C1D21B69EE11001F99EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A9C1C31B69EE10001F99EE /* DigitalComposites */;
+			targetProxy = B5A9C1D11B69EE11001F99EE /* PBXContainerItemProxy */;
+		};
+		B5A9C1F71B69EEC2001F99EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A9C1E91B69EEC2001F99EE /* DigitalCompositesOSX */;
+			targetProxy = B5A9C1F61B69EEC2001F99EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5A9C1D81B69EE11001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5A9C1D91B69EE11001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5A9C1DB1B69EE11001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DigitalComposites/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A9C1DC1B69EE11001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DigitalComposites/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5A9C1DE1B69EE11001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5A9C1DF1B69EE11001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5A9C1E21B69EE41001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5A9C1E31B69EE41001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5A9C1FE1B69EEC2001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5A9C1FF1B69EEC2001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DigitalCompositesOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5A9C2011B69EEC2001F99EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5A9C2021B69EEC2001F99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitalCompositesOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A9C1BE1B69EE10001F99EE /* Build configuration list for PBXProject "DigitalComposites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C1D81B69EE11001F99EE /* Debug */,
+				B5A9C1D91B69EE11001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9C1DA1B69EE11001F99EE /* Build configuration list for PBXNativeTarget "DigitalComposites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C1DB1B69EE11001F99EE /* Debug */,
+				B5A9C1DC1B69EE11001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9C1DD1B69EE11001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C1DE1B69EE11001F99EE /* Debug */,
+				B5A9C1DF1B69EE11001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9C1E11B69EE41001F99EE /* Build configuration list for PBXAggregateTarget "DigitalCompositesAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C1E21B69EE41001F99EE /* Debug */,
+				B5A9C1E31B69EE41001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9C1FD1B69EEC2001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C1FE1B69EEC2001F99EE /* Debug */,
+				B5A9C1FF1B69EEC2001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A9C2001B69EEC2001F99EE /* Build configuration list for PBXNativeTarget "DigitalCompositesOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A9C2011B69EEC2001F99EE /* Debug */,
+				B5A9C2021B69EEC2001F99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A9C1BB1B69EE10001F99EE /* Project object */;
+}

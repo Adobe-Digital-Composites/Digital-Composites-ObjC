@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Q7y-qv-e8K">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Digital Composites-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CompositeListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgk-eH-MoG">
+                                <rect key="frame" x="0.0" y="492" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.97896938131313127" green="0.97270169221321467" blue="0.96350861592020953" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="6za-07-bzr"/>
+                                    <constraint firstAttribute="height" constant="44" id="9pj-uk-3X4"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="Tdd-9x-ZeG"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="New Composite" id="YMf-gE-0VX">
+                                        <connections>
+                                            <action selector="handleNewCompositeButton:" destination="BYZ-38-t0r" id="QE2-9H-Bk6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.96854645506028547" green="0.96298745556194099" blue="0.97896938131313127" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="btS-64-jQ7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="491"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CompositeCell" id="zxB-gg-RFI">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zxB-gg-RFI" id="Gr8-st-fZ7">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yAb-9D-4s3" kind="show" identifier="CompositeDetails" id="X3h-qt-6cE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="g9Z-8U-EbB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mxq-AR-8Yu"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99359766585190901" blue="0.98420710015242396" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="btS-64-jQ7" secondAttribute="trailing" constant="-16" id="11a-tJ-Yg7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tgk-eH-MoG" secondAttribute="bottom" id="2n8-1Q-Kxg"/>
+                            <constraint firstItem="tgk-eH-MoG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="e8K-8K-vKK"/>
+                            <constraint firstItem="tgk-eH-MoG" firstAttribute="top" secondItem="btS-64-jQ7" secondAttribute="bottom" constant="1" id="f7e-eq-Yfv"/>
+                            <constraint firstItem="btS-64-jQ7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="g1Y-zH-RP0"/>
+                            <constraint firstItem="btS-64-jQ7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qgQ-6F-jIE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tgk-eH-MoG" secondAttribute="trailing" constant="-16" id="tim-0u-lJ3"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Digital Composites" id="LMj-d8-zTK"/>
+                    <connections>
+                        <outlet property="tableView" destination="btS-64-jQ7" id="yIl-ck-3Hs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1469" y="-242"/>
+        </scene>
+        <!--Composite Details View Controller-->
+        <scene sceneID="xBL-L2-U3r">
+            <objects>
+                <viewController id="yAb-9D-4s3" customClass="CompositeDetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G1a-jG-0WH"/>
+                        <viewControllerLayoutGuide type="bottom" id="6eu-iZ-P1H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ORZ-f3-5nT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VrP-tr-YEE">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SHT-Ic-Fm7"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Change Photo" id="1z1-eR-ZBr">
+                                        <connections>
+                                            <action selector="handleChangePhotoButton:" destination="yAb-9D-4s3" id="3eC-4c-7BM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Yw6-ya-3Ic"/>
+                                    <barButtonItem title="Save" id="0OK-Zc-fDd">
+                                        <connections>
+                                            <action selector="saveComposite:" destination="yAb-9D-4s3" id="EaG-dQ-XcH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gex-Ng-M6w">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="555"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6eu-iZ-P1H" firstAttribute="top" secondItem="VrP-tr-YEE" secondAttribute="bottom" id="1kY-44-nPz"/>
+                            <constraint firstItem="VrP-tr-YEE" firstAttribute="top" secondItem="gex-Ng-M6w" secondAttribute="bottom" constant="1" id="1rM-h2-gs5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VrP-tr-YEE" secondAttribute="trailing" constant="-16" id="N8P-mN-29T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gex-Ng-M6w" secondAttribute="trailing" constant="-16" id="PRt-cR-utF"/>
+                            <constraint firstItem="gex-Ng-M6w" firstAttribute="leading" secondItem="ORZ-f3-5nT" secondAttribute="leadingMargin" constant="-16" id="cBA-gn-nmr"/>
+                            <constraint firstItem="gex-Ng-M6w" firstAttribute="top" secondItem="ORZ-f3-5nT" secondAttribute="topMargin" id="rjc-zV-lvI"/>
+                            <constraint firstItem="VrP-tr-YEE" firstAttribute="leading" secondItem="ORZ-f3-5nT" secondAttribute="leadingMargin" constant="-16" id="xOC-08-Mac"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="gex-Ng-M6w" id="wFl-Pl-RZa"/>
+                        <segue destination="SnB-iY-EZk" kind="unwind" identifier="unwind" unwindAction="unwindToContainerVC:" id="C6Z-fc-UlR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Rf-xf-Mfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="SnB-iY-EZk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2115" y="-242"/>
+        </scene>
+        <!--Digital Composites-->
+        <scene sceneID="497-S0-Y3P">
+            <objects>
+                <navigationController title="Digital Composites" automaticallyAdjustsScrollViewInsets="NO" id="Q7y-qv-e8K" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fAX-JC-I3a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qU5-9j-YxI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CXh-0J-56J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="-242"/>
+        </scene>
+    </scenes>
+</document>
