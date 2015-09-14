@@ -23,8 +23,8 @@
 #import "DropboxAccount.h"
 
 NSString *const DropboxAppName      = @"DigitalCompositesApp";
-NSString *const DropboxAppKey       = @"7taw8nns9yzoyso";           // TODO
-NSString *const DropboxAppSecret    = @"bfngu77u1okf3wj";
+NSString *const DropboxAppKey       = @"";  // These two variables need to be set by you.
+NSString *const DropboxAppSecret    = @"";  // For a production-level app you will want to protect/encrypt them.
 NSString *const DropboxRedirectUrl  = @"http://localhost/callback/authCode";
 
 @implementation DropboxAccount {
