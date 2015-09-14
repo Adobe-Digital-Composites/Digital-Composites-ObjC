@@ -37,6 +37,7 @@
 #import "DCXUtils.h"
 #import "DCXError.h"
 #import "DCXErrorUtils.h"
+#import "DCXNetworkUtils.h"
 
 NSURL *DropboxApiBaseUrl;
 NSURL *DropboxContentBaseUrl;
@@ -372,6 +373,8 @@ static NSDictionary *DCXTypeSyncGroups = nil;
 {
     NSString *href = [self getHrefForComponent:component ofComposite:composite];
     NSString *urlString = [@"files/sandbox" stringByAppendingPathComponent:href];
+    NSString *componentRev = component.etag;
+    urlString = [NSString stringWithFormat:@"%@?rev=%@", urlString, [DCXNetworkUtils encodeQueryParameterForURLWithString:componentRev]];
     NSURL *url = [self urlFromString:urlString andParams:nil relativeToUrl:DropboxContentBaseUrl];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
@@ -401,7 +404,7 @@ static NSDictionary *DCXTypeSyncGroups = nil;
                                                                  domain:DCXErrorDomain response:response
                                                                 details:@"Missing metadata field 'rev'"];
                           
-                      } else if (![newEtag isEqualToString:component.etag]) {
+                      } else if (![newEtag isEqualToString:componentRev]) {
                           error = [DCXErrorUtils ErrorWithCode:DCXErrorUnexpectedResponse
                                                                  domain:DCXErrorDomain response:response
                                                                 details:[NSString stringWithFormat:@"Downloaded component has rev %@. Expected: %@",
