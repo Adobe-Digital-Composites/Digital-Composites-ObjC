@@ -35,4 +35,6 @@
 + (NSDictionary *)decodeResponseHeaders:(NSDictionary *)source;
 + (NSDictionary *)encodeRequestHeaders:(NSDictionary *)source;
 
++ (NSString *)encodeQueryParameterForURLWithString:(NSString *)string;
+
 @end

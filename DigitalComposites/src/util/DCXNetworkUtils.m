@@ -174,4 +174,15 @@
     return [NSDictionary dictionaryWithObjects:escapedValues forKeys:keys count:count];
 }
 
++ (NSString *)encodeQueryParameterForURLWithString:(NSString *)string
+{
+    return CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
+                                                                     kCFAllocatorDefault,
+                                                                     (__bridge CFStringRef)(string),
+                                                                     NULL,
+                                                                     (CFStringRef)@":/?#[]@!$&'()*+,;=%\\ ",
+                                                                     kCFStringEncodingUTF8
+                                                                     ));
+}
+
 @end

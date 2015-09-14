@@ -448,7 +448,7 @@ const NSInteger DCXHTTPServiceMaxAuthTokenHistory = 3;
 
             NSInteger statusCode = result.statusCode;
 
-            if (statusCode == 401) // authentication failure
+            if (statusCode == 401 || (statusCode == 400 && _authToken == nil)) // authentication failure
             {
                 result.error = [DCXErrorUtils ErrorWithCode:DCXErrorAuthenticationFailed
                                                               domain:DCXErrorDomain response:result
